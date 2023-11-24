@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import './App.css'
-import { Navbar } from './components/Navbar';
+import { NavComponent } from "./components/NavComponent.jsx"
+import {FooterComponent} from './components/FooterComponent.jsx'
 
 
 export function App() {
@@ -8,16 +9,17 @@ export function App() {
   return (
     <div className="App" id="app">
       <header>
-        <Navbar />
+        <NavComponent/>
       </header>
 
-      <main>
+      <main className="min-h-screen">
         <Outlet />
       </main>
 
-      <footer className="bg-dark text-light text-center p-3 ">
-        Made with 💖 by your name here
-      </footer>
+      
+     <FooterComponent/>
+        
+      
 
     </div>
   )
