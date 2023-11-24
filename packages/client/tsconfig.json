@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "checkJs": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "strictFunctionTypes": true
+  },
+
+
+  "exclude": [
+    // "node_modules",
+    // "**/node_modules/*"
+    "c:/Users/micha/source/Personal-projects/mern/packages/client/postcss.config.js",
+    "c:/Users/micha/source/Personal-projects/mern/packages/client/src/App.jsx"
+  ]
+}

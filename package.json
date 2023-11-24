@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pnpm --filter './packages/**' start"
+    "start": "cross-env pnpm --filter './packages/**' start"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
-    "consola": "^3.2.3"
+    "consola": "^3.2.3",
+    "cross-env": "^7.0.3"
   }
 }
